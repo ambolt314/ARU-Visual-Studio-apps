@@ -1,4 +1,4 @@
-# ARU-Visual-Studio-apps
+# ARU Visual Studio apps
 These are apps created according to tutorials, as part of coursework at Anglia Ruskin University.
 
 Tutorials used:
