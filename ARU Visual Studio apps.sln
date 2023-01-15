@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32510.428
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{510519B0-6915-4C2B-8050-AB4B876E7914}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MatchingGame", "MatchingGame\MatchingGame.csproj", "{DDCB720B-3801-4496-B4CD-8AE357B3CD54}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleDatabaseWalkthrough", "SampleDatabaseWalkthrough\SampleDatabaseWalkthrough.csproj", "{6AF37ECE-6939-494F-96BF-7AE076D87501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SamplePDFGenerator", "SamplePDFGenerator\SamplePDFGenerator.csproj", "{C091BD0D-41A3-46F4-AEBD-DCAF6CF764F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{6AF37ECE-6939-494F-96BF-7AE076D87501}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AF37ECE-6939-494F-96BF-7AE076D87501}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AF37ECE-6939-494F-96BF-7AE076D87501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C091BD0D-41A3-46F4-AEBD-DCAF6CF764F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C091BD0D-41A3-46F4-AEBD-DCAF6CF764F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C091BD0D-41A3-46F4-AEBD-DCAF6CF764F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C091BD0D-41A3-46F4-AEBD-DCAF6CF764F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
