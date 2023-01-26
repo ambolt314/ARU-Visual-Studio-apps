@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using myMLApp;
 
 namespace myMLApp
 {
@@ -13,6 +8,7 @@ namespace myMLApp
         {
             Console.WriteLine("Enter a review: ...");
             var input = Console.ReadLine();
+
 
             try
             {

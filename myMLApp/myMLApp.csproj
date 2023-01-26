@@ -108,19 +108,19 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="SentimentModel.mbconfig" />
+    <Content Include="SentimentModel.mbconfig" />
   </ItemGroup>
   <ItemGroup Label="SentimentModel">
-    <None Include="SentimentModel.consumption.cs">
+    <Content Include="SentimentModel.consumption.cs">
       <DependentUpon>SentimentModel.mbconfig</DependentUpon>
-    </None>
-    <None Include="SentimentModel.training.cs">
+    </Content>
+    <Content Include="SentimentModel.training.cs">
       <DependentUpon>SentimentModel.mbconfig</DependentUpon>
-    </None>
-    <None Include="SentimentModel.zip">
+    </Content>
+    <Content Include="SentimentModel.zip">
       <DependentUpon>SentimentModel.mbconfig</DependentUpon>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
