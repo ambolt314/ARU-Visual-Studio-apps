@@ -1,13 +1,44 @@
 ﻿using System;
-// Add input data
-var sampleData = new SentimentModel.ModelInput()
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using myMLApp;
+
+namespace myMLApp
 {
-    Col0 = "This restaurant was wonderful."
-};
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter a review: ...");
+            var input = Console.ReadLine();
 
-// Load model and predict output of sample data
-var result = SentimentModel.Predict(sampleData);
+            try
+            {
+                ModelInput sampleData = new ModelInput()
+                {
+                    Col0 = input
+                };
 
-// If Prediction is 1, sentiment is "Positive"; otherwise, sentiment is "Negative"
-var sentiment = result.PredictedLabel == 1 ? "Positive" : "Negative";
-Console.WriteLine($"Text: {sampleData.Col0}\nSentiment: {sentiment}");
+                ModelOutput result = SentimentModel.Predict(sampleData);
+
+                Console.WriteLine($"Predicting sentiment of {sampleData}...");
+                string sentiment = (result == 1 ? "positive" : "negative");
+                Console.WriteLine($"Your review was {sentiment}");
+                Console.WriteLine("Press any key to quit");
+                Console.ReadKey();
+
+
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("### Something went wrong ###");
+            }
+
+        }
+    }
+}
+
+
