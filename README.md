@@ -9,3 +9,4 @@ Tutorials used:
 - [Sample Database](https://learn.microsoft.com/en-us/visualstudio/data-tools/create-a-sql-database-by-using-a-designer?view=vs-2022)
 - [Sample PDF Generator](https://procodeguide.com/dotnet/create-pdf-file-in-csharp-net/)
 - [Simple Data app](https://docs.microsoft.com/en-us/visualstudio/data-tools/create-a-simple-data-application-by-using-adonet?view=vs-2022)
+- [Sentiment analyser](https://dotnet.microsoft.com/en-us/learn/ml-dotnet/get-started-tutorial/intro)
