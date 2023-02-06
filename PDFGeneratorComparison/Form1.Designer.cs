@@ -1,6 +1,6 @@
 ﻿namespace PDFGeneratorComparison
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnGeneratePDFSharp = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnGeneratePDFSharp
+            // 
+            this.btnGeneratePDFSharp.AutoSize = true;
+            this.btnGeneratePDFSharp.Location = new System.Drawing.Point(119, 129);
+            this.btnGeneratePDFSharp.Name = "btnGeneratePDFSharp";
+            this.btnGeneratePDFSharp.Size = new System.Drawing.Size(421, 42);
+            this.btnGeneratePDFSharp.TabIndex = 0;
+            this.btnGeneratePDFSharp.Text = "Generate PDF using PDFSharp";
+            this.btnGeneratePDFSharp.UseVisualStyleBackColor = true;
+            this.btnGeneratePDFSharp.Click += new System.EventHandler(this.btnGeneratePDFSharp_Click);
+            // 
+            // MainForm
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(992, 680);
+            this.Controls.Add(this.btnGeneratePDFSharp);
+            this.Name = "MainForm";
+            this.Text = "Generate a PDF";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnGeneratePDFSharp;
     }
 }
 
