@@ -21,7 +21,7 @@ namespace HelloWorld
         private void btnClickThis_Click(object sender, EventArgs e)
         {
             lblHelloWorld.Visible = true;
-            lblHelloWorld.Text = "Hello World!";
+            lblHelloWorld.Text = "Goodbye Mars!";
         }
 
         private void lblHelloWorld_Click(object sender, EventArgs e)
